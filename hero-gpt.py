@@ -6,7 +6,7 @@ import requests
 
 
 def run_script(name, bad_alternative, better_solution, objections, icp, creativity):
-    openai_api_key = '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'
+    openai_api_key = 'sk-'
     llm = OpenAI(model_name="text-davinci-003", temperature=creativity, openai_api_key=openai_api_key)
     template = """
               I want you to assume the role of the marketing manager of a startup and you've been assigned to come up 
